@@ -1,0 +1,75 @@
+
+body{
+    background-image: url(./cool-background.png);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card{
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    height: 85vh;
+    width: 85vw;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+}
+
+img.birthday{
+    margin-top: 4vh;
+    max-height: 40vh;
+    max-width: 80vw;
+}
+
+.text {
+    max-height: 41vh;
+}
+
+.gift {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.c{
+    flex-basis: 30vw;
+    height: 23vh;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.gift p {
+    margin-top: 12vh;
+}
+
+.c:hover{
+    border: 2px solid black;
+} 
+
+.c p{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.giftChicken{
+    background-image: url(./Chicken-tikka-masala.jpg);
+}
+
+.giftWork{
+    background-image: url(./bau.jpg);
+}
+
+p{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
