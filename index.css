@@ -11,7 +11,7 @@ body{
 .card{
     background-color: #fdfdfd;
     border-radius: 8px;
-    height: 85vh;
+    height: 90vh;
     width: 85vw;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     text-align: center;
@@ -50,15 +50,21 @@ img.birthday{
     margin-top: 12vh;
 }
 
-.c:hover{
-    border: 2px solid black;
-} 
-
-.c p{
-    color: white;
+.giftChicken p{
+    color: #14ef95;
     font-weight: bold;
     font-size: large;
 }
+
+.giftWork p{
+    color: #0e538c;
+    font-weight: bold;
+    font-size: large;
+}
+
+.c:hover{
+    border: 2px solid black;
+} 
 
 .giftChicken{
     background-image: url(./Chicken-tikka-masala.jpg);
@@ -72,4 +78,5 @@ p{
     color: black;
     font-weight: bold;
     font-size: large;
+    margin: 6px;
 }
