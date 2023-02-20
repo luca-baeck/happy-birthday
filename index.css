@@ -56,7 +56,7 @@ img.birthday{
 .giftChicken p{
     color: #14ef95;
     font-weight: bold;
-    font-size: large;
+    font-size: 100%;
     max-width: 29vw;
     margin: 0;
 }
@@ -65,7 +65,7 @@ img.birthday{
     margin: 0;
     color: #0e538c;
     font-weight: bold;
-    font-size: large;
+    font-size: 100%;
     max-width: 29vw;
 }
 
