@@ -24,10 +24,14 @@ img.birthday{
 }
 
 .text {
+    margin-top: 3vh;
     max-height: 41vh;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .gift {
+    margin-top: 3vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -35,9 +39,8 @@ img.birthday{
 
 
 .c{
-    flex-basis: 30vw;
+    flex: 30vw;
     height: 23vh;
-    margin: 15px;
     border-radius: 15px;
     padding: 10px;
     background-size: cover;
@@ -54,12 +57,16 @@ img.birthday{
     color: #14ef95;
     font-weight: bold;
     font-size: large;
+    max-width: 29vw;
+    margin: 0;
 }
 
 .giftWork p{
+    margin: 0;
     color: #0e538c;
     font-weight: bold;
     font-size: large;
+    max-width: 29vw;
 }
 
 .c:hover{
@@ -79,4 +86,5 @@ p{
     font-weight: bold;
     font-size: large;
     margin: 6px;
+    margin-top: 3vh;
 }
